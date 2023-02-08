@@ -1,7 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
 import App from "./App";
-import Test from "./Test";
 import Car from "./Car";
 import Creator from "./Creator";
 import Film from "./Film";
