@@ -1,6 +1,5 @@
 import React from "react";
 import Creator from "./Creator";
-import Time from "./Time";
 export default class Car extends React.Component {
   constructor(props) {
     super(props);
@@ -28,7 +27,6 @@ export default class Car extends React.Component {
           {this.state.isShow ? "Hide" : "Show"}
         </button>
         <Creator />
-        <Time/>
       </>
     );
   }
