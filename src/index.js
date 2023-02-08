@@ -4,7 +4,6 @@ import App from "./App";
 import Car from "./Car";
 import Creator from "./Creator";
 import Film from "./Film";
-import Page from "./Personal_page";
 import image from "./assets/cat_eyes_256.png";
 import poster_image from "./assets/The_shawshank.jpg";
 import my_photo from "./assets/CVFoto.jpg";
@@ -27,17 +26,9 @@ const rootElement = document.getElementById("root");
 render(
   <React.StrictMode>
     <App />
-    <Test />
     <Creator />
     <Car data={car} />
     <Film data={best_film}/>
-    <Page name="Vladislav" 
-    surname="Karastan" 
-    phone="4513004"
-    email="romber236@gmail.com"
-    work_experience="None"
-    skills="English"
-    photo={my_photo}/>
   </React.StrictMode>,
   rootElement
 );
